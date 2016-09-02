@@ -55,6 +55,7 @@
     else {
         echo "cannot open dir $dir";
     }
+    sort($archivos);
     ?>
 </head>
 
