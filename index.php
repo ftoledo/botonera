@@ -59,6 +59,8 @@
 </head>
 
 <body>
+    <h1>Botonera</h1>
+    <h2><a href="https://github.com/ftoledo/botonera">https://github.com/ftoledo/botonera</a></h2>
     <?php foreach ($archivos as $file):?>
     <audio id='sonido<?php echo $cnt_a?>' src="<?php echo $dir.DIRECTORY_SEPARATOR.$file?>" preload="true">Tu navegador no soporta el elemento <code>audio</code>.</audio>
     <?php $cnt_a++?>
