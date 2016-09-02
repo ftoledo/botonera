@@ -2,6 +2,7 @@
 <html>
 <head>
     <style>
+    body { width: 90%; }
     audio { visibility: hidden; }
     button {
     outline: none;
