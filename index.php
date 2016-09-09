@@ -56,7 +56,7 @@
     else {
         echo "cannot open dir $dir";
     }
-    sort($archivos);
+    natcasesort($archivos);
     ?>
 </head>
 
