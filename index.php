@@ -91,7 +91,7 @@
 		<?php endforeach;?>
 		<?php foreach ($files as $file):?>
 			<?php $parts = pathinfo($file)?>
-			<button onclick="document.getElementById('sonido<?php echo $cnt_b?>').play();"><?php echo preg_replace("/[-_]/i"," ",$parts['filename'])?></button>
+			<button onclick="document.getElementById('sonido<?php echo $cnt_b?>').play();"><?php echo preg_replace("/[-_]/i"," ",ucfirst($parts['filename']))?></button>
 			<?php $cnt_b++?>
 		<?php endforeach;?>
 
