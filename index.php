@@ -82,7 +82,7 @@
 <body>
 <?php
 ?>
-    <h1>Botonera</h1>
+    <h1>Botonera de la Pesada Herancia</h1>
     <?php foreach ($archivos as $dir => $files):?>
     <?php natcasesort($files)?>
 		<div class="categoria"><span class="titulo"><?php echo preg_replace("/[-_]/i"," ",$dir) ?></span>
