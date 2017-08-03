@@ -47,6 +47,7 @@
     </style>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Cache-control" content="public">
 
  <?php 
 
@@ -82,7 +83,7 @@
 <body>
 <?php
 ?>
-    <h1>Botonera</h1>
+    <h1>Botonera de la Pesada Herencia</h1>
     <?php foreach ($archivos as $dir => $files):?>
     <?php natcasesort($files)?>
 		<div class="categoria"><span class="titulo"><?php echo preg_replace("/[-_]/i"," ",$dir) ?></span>
